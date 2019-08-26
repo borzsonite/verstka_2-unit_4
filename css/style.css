@@ -1,0 +1,140 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.block-orange {
+    width: 140px;
+    height: 100px;
+    background: orange;
+}
+
+.block-green {
+    width: 230px;
+    height: 140px;
+    background: limegreen;
+}
+
+.block-red {
+    width: 420px;
+    height: 150px;
+    background: maroon;
+}
+
+.block-square {
+    width: 100px;
+    height: 100px;
+    background: lawngreen;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
+}
+
+h1.position-absolute {
+    top: 20px;
+    left: 450px;
+}
+
+h1.position-relative {
+    top: 520px;
+    left: 450px;
+}
+
+.block-orange.position-absolute {
+    top: 70px;
+    left: 165px;
+}
+
+.block-green.position-absolute {
+    top: 171px;
+    left: 120px;
+}
+
+.block-red.position-absolute {
+    top: 312px;
+    left: 15px;
+}
+
+ .block-orange.position-relative {
+    transform: rotate(90deg);
+    top: 710px;
+    left: 287px;
+}
+
+ .block-green.position-relative {
+    transform: rotate(90deg);
+    top: 590px;
+    left: 121px;
+} 
+
+ .block-red.position-relative {
+    transform: rotate(90deg);
+    top: 435px;
+    left: -120px;
+} 
+
+/* green squares position absolute start */
+.block-square:nth-child(5) {
+    left: 1000px;
+    top: 70px;
+} 
+
+.block-square:nth-child(6) {
+    left: 800px;
+    top: 269px;
+} 
+
+.block-square:nth-child(7) {
+    left: 800px;
+    top: 70px;
+} 
+
+.block-square:nth-child(8) {
+    left: 900px;
+    top: 170px;
+} 
+
+.block-square:nth-child(9) {
+    left: 1000px;
+    top: 269px;
+} 
+/* green squares position absolute end */
+
+
+/* green squares position relative start */
+.block-square:nth-child(14) {
+    left: 1000px;
+    top: 150px;
+} 
+
+.block-square:nth-child(15) {
+    left: 900px;
+    top: 150px;
+} 
+
+.block-square:nth-child(16) {
+    left: 800px;
+    top: 150px;
+} 
+
+.block-square:nth-child(17) {
+    left: 1000px;
+    top: 50px;
+} 
+
+.block-square:nth-child(18) {
+    left: 800px;
+    top: -250px;
+} 
+/* green squares position relative end */
+
